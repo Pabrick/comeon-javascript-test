@@ -1,0 +1,18 @@
+.main.container .login button {
+    border: 0;
+}
+.main.container .login button input,
+.main.container .login button i {
+    pointer-events: none;
+}
+
+.main.container .casino button {
+    border: 0;
+    box-shadow: 0px 0px 0px 0px #ffffff inset !important;
+}
+
+.main.container .login .error-msg {
+    color: #FF4444;
+    font-size: 14px;
+    font-weight: bold;
+}

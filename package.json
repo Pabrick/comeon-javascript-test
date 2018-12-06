@@ -1,0 +1,22 @@
+{
+  "name": "comeon-javascript-test",
+  "version": "1.0.0",
+  "description": "![comeon-javascript-test-site](http://b5fa2dae67bf7ee0b0e5-e0d56d540e31d5f2f9430984d20d712d.r41.cf3.rackcdn.com/comeon-javascript-test_3.png) # comeon-javascript-test",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabrick/comeon-javascript-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabrick/comeon-javascript-test/issues"
+  },
+  "homepage": "https://github.com/pabrick/comeon-javascript-test#readme"
+}
