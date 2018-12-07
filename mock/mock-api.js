@@ -38,9 +38,7 @@ module.exports = (req, res, next) => {
                     status: 'fail',
                     error: 'player does not exist or wrong password'
                 });
-
             }
-
         } else if(req.path === '/logout') {
             var username = req.body.username;
             if (username in players) {

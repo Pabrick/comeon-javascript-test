@@ -6,6 +6,10 @@
     pointer-events: none;
 }
 
+.main.container .casino .search.icon {
+    cursor: pointer;
+}
+
 .main.container .casino button {
     border: 0;
     box-shadow: 0px 0px 0px 0px #ffffff inset !important;
