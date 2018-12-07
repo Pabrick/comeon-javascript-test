@@ -60,7 +60,7 @@
 
             <article class="four wide column">
                 <div class="search ui small icon input ">
-                    <input type="text" placeholder="Search Game">
+                    <input type="text" placeholder="Search Game" id="search" onkeyup="searchGamesByName()">
                     <i class="search icon"></i>
                 </div>
             </article>
@@ -70,7 +70,7 @@
             <article class="twelve wide column">
                 <h3 class="ui dividing header">Games</h3>
 
-                <div id="games" class="ui relaxed divided game items links"></div>
+                <ul id="games" class="ui relaxed divided game items links"></ul>
 
             </article>
             <article class="four wide column">
@@ -85,9 +85,9 @@
     <div id="viewGame" class="ingame" style="display: none;">
         <div class="ui grid centered">
             <div class="three wide column">
-                <div class="ui right floated secondary button inverted">
+                <button class="ui right floated secondary button inverted" onclick="backToGames()">
                     <i class="left chevron icon"></i>Back
-                </div>
+                </button>
             </div>
             <div class="ten wide column">
                 <div id="game-launch">
@@ -101,6 +101,7 @@
 
 <script src="lib/comeon.game-1.0.min.js"></script>
 <script src="lib/Session.js"></script>
+<script src="lib/Template.js"></script>
 <script src="lib/main.js"></script>
 </body>
 </html>
